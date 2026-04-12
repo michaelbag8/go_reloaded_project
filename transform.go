@@ -16,7 +16,6 @@ func capitalize(word string) string {
 	return strings.Join(words, " ")
 }
 
-
 func ConvertNumbers(word string) string {
 	words := strings.Fields(word)
 	for i := 0; i < len(words); i++ {
