@@ -1,6 +1,7 @@
 package main
 
 import (
+	//"fmt"
 	"strconv"
 	"strings"
 	"unicode"
@@ -96,3 +97,7 @@ func applyLastN(word string) string {
 	}
 	return strings.Join(words, " ")
 }
+
+// func main(){
+// 	fmt.Println(applyLastN("harold wilson (cap,2)"))
+// }
